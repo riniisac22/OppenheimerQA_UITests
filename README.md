@@ -26,6 +26,32 @@ The framework is created to test the UI aspects of the Oppenheimer Dev Project.
 
 ##### 4. For the timebeing Test results are only available in the Terminal when test is Run
 
+Output Format:
+
+```
+# To get CSV Upload Option availability
+--Checkpoint Passed: CSV upload option is available
+# To get Dispense Button Option availablity
+--Checkpoint Passed: Dispense Button is available
+# To Check Listbox availability
+--Checkpoint Passed: ListBox is available
+*** TestCase Website Availability Check : Passed *** 
+# To get CSV Upload Option availability
+# To Check the upload of INput CSV File with EMployee List
+# To Check taxReliefRefresh Button availability
+# To Check if List is populated after File upload
+*** Test Case CSVFile Upload : Passed *** 
+# To check if Dispense Now Button is Red in Color
+--Checkpoint Passed: Dispense Now Button color = RED
+# To check if Dispense Now Button Text is as expected
+--Checkpoint Passed: Dispense Now Button Text is as Expected
+# To get Dispense Button Option availablity
+Check confirmation page
+--Checkpoint Passed: Dispense Now Button works as expected
+*** TestCase Dispense Funds Functionality : Passed ***
+
+```
+
 _P.S: I was a little pressed for time this week. Could not implement the TestNG Framework._
 
 QA
